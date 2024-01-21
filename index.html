@@ -31,7 +31,7 @@
 	    <link rel="apple-touch-icon" sizes="72x72" href="upload/logo_small_72.png">
 	    <link rel="apple-touch-icon" sizes="114x114" href="upload/logo_small_114.png">
 
-
+		<script src="https://kit.fontawesome.com/cd72707e66.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body data-spy="scroll" data-offset="80" data-target=".main-nav">
@@ -49,7 +49,8 @@
 					    <li><a href="#past-events">PAST EVENTS</a></li>
 						<li><a href="#agenda">UPCOMING EVENTS</a></li>
 						<li><a href="#officers">OUR TEAM</a></li>
-					    <li><a href="#contact-us">CONTACT US</a></li>
+					    <li><a href="#get-newsletter">GET YOUR NEWSLETTER</a></li>
+						<!-- <li><a href="#contact-us">CONTACT US</a></li> -->
 					</ul>
 				</nav>
 
@@ -111,7 +112,15 @@
 				</div> <!-- end container -->
 			</section> <!-- end intro -->
 			
+
+			<section >
+				<div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
+					<a href="https://bit.ly/ucsb-ece-gsa" target="_blank"><button class="join_slack">Join Slack <i class="fa fa-slack"></i></button></a>
+					<!-- <a href="https://forms.fillout.com/t/7fbgA1JdxRus" target="_blank"><button class="join_newsletter">Subscribe to newsletter <i class="fa fa-envelope"></i></button></a> -->
+				</div>
+			</section>
 			
+			<br><br><br><br><br><br>
 			
 			<!-- Testimonials -->
 			<section class="section-wrap testimonials-slider" id="past-events">
@@ -204,8 +213,6 @@
 		<section class="section-wrap bg-light" id="agenda">
 				<div class="container">			
 					<h2 class="text-center">UPCOMING EVENTS</h2>
-					<p class="subheading text-center">Here are the planned activities</p>
-
 					<div class="row mt-20">
 
 						<div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; -webkit-animation-duration: 1s; animation-delay: 0.2s; -webkit-animation-delay: 0.2s; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
@@ -440,16 +447,18 @@
 
 							<div class="container-partners">
 								<span>
+									<a href="#" target="_blank">
+										<img src="upload/physics_gradlife.png" alt="">
+									</a>
+									<br> <br> <br> <br>
 									<a href="https://msa.materials.ucsb.edu/" target="_blank">
 										<img src="upload/msa_logo.png" alt="">
 									</a>
 									<br> <br> <br> <br>
-									<!-- <a href="#" target="_blank">
-										<img src="upload/gradlife_physics.jpg" alt="">
-									</a> -->
 									<a href="#" target="_blank">
 										<img src="upload/photonics_society.png" alt="">
 									</a>
+									
 								</span>
 							</div>
 
@@ -469,22 +478,42 @@
 				</div> <!-- end container -->
 			</section> <!-- end partners -->	
 
-			<section class="section-wrap pb-0 our-team bg-light", id="contact-us"></section>
+			
 		
+			<section class="section-wrap pb-0 our-team bg-light", id="get-newsletter" >
+				<div class="container">
+					<div class="row">
+						<h2 class="text-center">GET YOUR NEWSLETTER</h2>
+					</div>	
+				</div>
+				<div style="width:100%;height:500px;" data-fillout-id="7fbgA1JdxRus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>
+			</section>
+
+
+			 <!-- 
+			<section class="section-wrap pb-0 our-team bg-light", id="contact-us">
+				<div class="container">
+					<div class="row">
+						<h2 class="text-center">CONTACT US</h2>
+					</div>	
+				</div>
+			</section>
+			-->
+
 
 		<!-- Footer -->
 			<footer id="footer" class="minimal">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4">
-							
+							<p><span class="footer-byeline">Made with lots of </span><span class="coffee-color"><i class="fas fa-coffee"></i></span><span class="footer-byeline"> + </span> <span class="heart-color"><i class="fa-solid fa-heart"></i></span></p>
 							<div class="socials">
 								<!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
 								<!--<a href="#"><i class="fa fa-twitter"></i></a> -->
 								<!--<a href="#"><i class="fa fa-google-plus"></i></a>   -->
 								<!--<a href="#"><i class="fa fa-linkedin"></i></a>  -->
 								<!--<a href="#"><i class="fa fa-pinterest-p"></i></a>   -->
-								<a href="https://bit.ly/ucsb-ece-gsa" target="_blank"><i class="fa fa-slack"></i></a>
+								<a href="https://bit.ly/ucsb-ece-gsa" target="_blank"><i class="fa fa-slack fa-xl"></i></a>
 								<a href="https://www.instagram.com/ecegsa_ucsb" target="_blank"><i class="fa fa-instagram"></i></a>
 								<a href="mailto:gsa@ece.ucsb.edu" target="_blank"><i class="fa fa-envelope"></i></a>
 							</div> <!-- end socials -->

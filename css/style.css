@@ -1,3 +1,41 @@
+.footer-byeline{
+  font-weight: bold;
+  font-size: large;
+}
+.coffee-color{
+  color:peru;
+}
+.heart-color{
+  color: #ff0000;
+}
+button {
+  background-color: #40abee;
+  border: .5px solid #40abee;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px;
+  font-size: xx-large;
+  box-shadow: 0 0 30px 0 #40abee,
+              0 0 30px 0 #40abee,
+              0 0 10px 0 #40abee;
+  margin-right: 20px;
+}
+
+.join_slack_button{
+  background-color: #5d6de8;
+  border: .5px solid #5d6de8;
+  box-shadow: 0 0 30px 0 #5d6de8,
+              0 0 30px 0 #5d6de8,
+              0 0 10px 0 #5d6de8;
+}
+
+.join_newsletter{
+  background-color: #d6894a;
+  border: .5px solid #d6894a;
+  box-shadow: 0 0 30px 0 #d6894a,
+              0 0 30px 0 #d6894a,
+              0 0 10px 0 #d6894a;
+}
 .container-partners{ width:80%; margin:0 auto; text-align: center; }
 .container-partners span{ width:90%; margin:0 1%; text-align: center;  }
 
